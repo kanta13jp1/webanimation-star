@@ -1,0 +1,19 @@
+{
+  "name": "webanimation-star",
+  "version": "1.0.0",
+  "repository": "https://github.com/yuneco/webanimation-star.git",
+  "author": "yuneco",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && yarn copy-statics",
+    "preview": "vite preview",
+    "copy-statics": "cp -R composite.html composite-vs-wrapper.html static docs/"
+  },
+  "devDependencies": {
+    "sass": "^1.51.0",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.7"
+  }
+}
